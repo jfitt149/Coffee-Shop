@@ -1,0 +1,97 @@
+h1 {
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 3.75rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+h3 {
+    font-size: 2.063rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.menu {
+    width: 100%;
+    height: 43.75rem;
+    background-image: url(../Assets/coffee-circle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-header {
+    background-color: #393939;
+    width: 18.75rem;
+    height: 12.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-header h1 {
+   color: #FFF;
+}
+
+.menu--list {
+    list-style-type: none;
+    text-align: center;
+    background-color: #393939;
+    color: #FFF;
+    width: 100%;
+    height: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.menu--list a {
+    text-decoration: none;
+    font-size: 1.313rem;
+    color: #FFF;
+    padding: 0 1.25rem;
+    border-left: 0.25rem solid #5bacc3;
+}
+
+.menu--list li {
+    display: inline-block;
+    padding: 1.844rem 0 1.844rem;
+}
+
+.menu--item {
+    text-align: center;
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style:italic;
+    width: 30rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1.25rem
+}
+
+span {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #5bacc3;
+    text-align: center;
+}
+
+.hot-drinks, .pastries {
+    background-color: #fff0ed;
+}
+
+.cold-drinks {
+    background-color: #f7f7f7;
+}
