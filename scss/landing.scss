@@ -1,3 +1,5 @@
+@use './partials/global' as *;
+
 .nav {
     background-color: #fff0ed;
 }
@@ -176,10 +178,21 @@ h3 {
     height: 30rem;
     width: 30rem;
     display: flex;
+    position: relative;
+}
+
+.discount-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.313rem solid #5bacc3;
+    right: 1.25rem;
+    bottom: 1.25rem;
 }
 
 .discount--img {
     margin: auto;
+    transform: translate(-1.25rem, -1.25rem);
 }
 
 .discount--text {
@@ -200,9 +213,8 @@ h3 {
 }
 
 .footer {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    width: 75%;
 }
 
 footer {
@@ -225,4 +237,20 @@ footer h3 {
 footer article {
     display: inline-block;
     padding-left: 6.25rem;
+}
+
+.footer-beans {
+    width: 7.5rem;
+    opacity: 0.2;
+}
+
+.left {
+    position: absolute;
+    left: -2.5rem;
+}
+
+.right {
+    position: absolute;
+    right: -2.5rem;
+    margin-top: 4rem;
 }

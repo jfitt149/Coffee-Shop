@@ -1,3 +1,5 @@
+@use './partials/global' as *;
+
 h1 {
     font-size: 3.75rem;
     font-weight: 300;
@@ -37,10 +39,23 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.menu-border {
+    border: 0.313rem solid #5bacc3;
+    position: absolute;
+    right: 0.626rem;
+    bottom: 0.626rem;
+    width: inherit;
+    height: inherit;
 }
 
 .menu-header h1 {
    color: #FFF;
+   transform: translateX(-0.626rem);
+   transform: translateY(-0.626rem);
+   z-index: 1;
 }
 
 .menu--list {

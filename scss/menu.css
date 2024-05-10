@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #393939;
+}
+
+nav {
+  background-color: #fff0ed;
+  vertical-align: middle;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 1.25rem;
+  display: flex;
+  text-decoration: none;
+  color: #393939;
+}
+
+.nitro {
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  padding-left: 1.25rem;
+  margin: 0;
+  display: inline;
+  vertical-align: top;
+}
+
+nav li {
+  padding: 2.25rem 0 2.255rem 1.25rem;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 1.313rem;
+  color: #393939;
+}
+
+.shop-now {
+  color: #5bacc3;
+  padding-right: 1.25rem;
+}
+
+header {
+  padding: 1.25rem;
+}
+
+section {
+  padding: 1.25rem;
+}
+
+section.menu {
+  padding-top: 0;
+}
+
+.nav-list {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+button {
+  background-color: #5bacc3;
+  font-size: 1.313rem;
+  border: none;
+  color: #fff;
+  width: 11.25rem;
+  padding: 1.25rem;
+  margin: 1.25rem;
+  position: relative;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.button-border {
+  border: 0.125rem solid black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0.313rem;
+  right: 0.313rem;
+}
+
+.icon {
+  width: 3.125rem;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+  padding: 1.25rem;
+}
+
+h3 {
+  font-size: 2.063rem;
+  font-weight: 300;
+  text-align: center;
+  padding: 1.25rem;
+}
+
+.menu {
+  width: 100%;
+  height: 43.75rem;
+  background-image: url(../Assets/coffee-circle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-header {
+  background-color: #393939;
+  width: 18.75rem;
+  height: 12.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-border {
+  border: 0.313rem solid #5bacc3;
+  position: absolute;
+  right: 0.626rem;
+  bottom: 0.626rem;
+  width: inherit;
+  height: inherit;
+}
+
+.menu-header h1 {
+  color: #FFF;
+  transform: translateX(-0.626rem);
+  transform: translateY(-0.626rem);
+  z-index: 1;
+}
+
+.menu--list {
+  list-style-type: none;
+  text-align: center;
+  background-color: #393939;
+  color: #FFF;
+  width: 100%;
+  height: 5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu--list a {
+  text-decoration: none;
+  font-size: 1.313rem;
+  color: #FFF;
+  padding: 0 1.25rem;
+  border-left: 0.25rem solid #5bacc3;
+}
+
+.menu--list li {
+  display: inline-block;
+  padding: 1.844rem 0 1.844rem;
+}
+
+.menu--item {
+  text-align: center;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: italic;
+  width: 30rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1.25rem;
+}
+
+span {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #5bacc3;
+  text-align: center;
+}
+
+.hot-drinks, .pastries {
+  background-color: #fff0ed;
+}
+
+.cold-drinks {
+  background-color: #f7f7f7;
+}/*# sourceMappingURL=menu.css.map */
